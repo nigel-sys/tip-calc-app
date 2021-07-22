@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="logo" />
+    </header>
+    <section id="container">
+      <div class="input">
+        <form action="#">
+          <label for="bill">Bill</label>
+          <input type="number" name="bill" id="bill" placeholder="0" min="1" step=".01">
+          <label for="btn-container">Select Tip %</label>
+          <div class="btn-container">
+            <button class="tipBtn" value="5">5%</button>
+            <button class="tipBtn" value="10">10%</button>
+            <button class="tipBtn" value="15">15%</button>
+            <button class="tipBtn" value="25">25%</button>
+            <button class="tipBtn" value="50">50%</button>
+            <input class="tipBtn" type="number" name="" id="custom" placeholder="Custom" min="1">
+          </div>
+          <label for="nop">Number of People</label>
+          <span class="nop-span"></span>
+          <input type="number" name="nop" id="nop" placeholder="0" min="1">
+        </form>
+      </div>
+      <div class="result">
+        <div class="result-container">
+          <div>Tip Amount<br><span>/ person</span></div>
+          <div class="amt tipAmt">$0.00</div> 
+          <div>Total<br><span>/ person</span></div>
+          <div class="amt total">$0.00</div>
+        </div>
+        <button class="reset">Reset</button>
+      </div>
+    </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
