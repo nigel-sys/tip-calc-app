@@ -1,1 +1,38 @@
-# tip-calc-app
+# Frontend Mentor - Tip calculator app solution
+
+This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Built with](#built-with)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Calculate the correct tip and total cost of the bill per person
+
+### Screenshot
+
+![](./Screenshot.png)
+
+### Links
+
+- Solution URL: https://www.frontendmentor.io/solutions/tipcalculatorapp-using-flexbox-css-grid-and-mobile-first-workflow--FQ-0swo4
+- Live Site URL: https://nigel-sys.github.io/tip-calc-app/
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
